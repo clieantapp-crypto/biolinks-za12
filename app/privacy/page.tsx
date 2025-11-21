@@ -157,7 +157,7 @@ export default function PrivacyPage() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl font-medium hover:bg-primary/90 transition-colors shadow-lg"
           >
             <Lock className="w-5 h-5" />
-            privacy@example.com
+            privacy@zxiomsd.com
           </a>
         </Card>
 

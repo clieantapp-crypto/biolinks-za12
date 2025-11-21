@@ -160,11 +160,11 @@ export default function TermsPage() {
             استخدام الخدمة.
           </p>
           <a
-            href="mailto:legal@example.com"
+            href="mailto:legal@zxiomsd.com"
             className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl font-medium hover:bg-accent/90 transition-colors shadow-lg"
           >
             <Scale className="w-5 h-5" />
-            legal@example.com
+            legal@zxiomsd.com
           </a>
         </Card>
 

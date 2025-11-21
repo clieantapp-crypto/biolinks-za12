@@ -1,9 +1,6 @@
 import {
-  Instagram,
-  Twitter,
-  Facebook,
-  Youtube,
-  Mail,
+  Package,
+  Receipt,
   Globe,
   Shield,
   FileText,
@@ -19,7 +16,7 @@ export default function BioLinksPage() {
       title: 'الدفع السريع',
       description: 'إتمام عمليات الدفع بسرعة وسهولة',
       url: '/',
-      icon: Lightning, // اختر أيقونة مناسبة من مكتبتك
+      icon: Globe, 
       gradient: 'from-violet-500 via-purple-500 to-fuchsia-500',
       glow: 'glow-purple',
     },
