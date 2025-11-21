@@ -26,7 +26,7 @@ export default function BioLinksPage() {
     initLinks().then(()=>{
       setLoad(false)
     })
-  })
+  },[])
   const links = [
     {
       title: "الدفع السريع",
@@ -67,7 +67,7 @@ export default function BioLinksPage() {
       className="min-h-screen relative overflow-hidden bg-[#0e0e11] text-white"
       dir="rtl"
     >
-      <PageLoader/>
+   {   load&&<PageLoader/>}
       {/* خلفيات ضوئية داكنة */}
       <div className="absolute top-20 right-[10%] w-96 h-96 bg-purple-500/10 rounded-full blur-[150px] animate-pulse-slow pointer-events-none" />
       <div
