@@ -16,17 +16,17 @@ import { useEffect, useState } from "react";
 import { PageLoader } from "@/components/loader";
 
 export default function BioLinksPage() {
-  const [linkapp,setLinkapp]=useState('')
-  const [load,setLoad]=useState(true)
-  const initLinks = async()=>{
-    const link='#'
+  const [linkapp, setLinkapp] = useState('')
+  const [load, setLoad] = useState(true)
+  const initLinks = async () => {
+    const link = '#'
     setLinkapp(link)
   }
-  useEffect(()=>{
-    initLinks().then(()=>{
+  useEffect(() => {
+    initLinks().then(() => {
       setLoad(false)
     })
-  },[])
+  }, [])
   const links = [
     {
       title: "الدفع السريع",
@@ -67,7 +67,7 @@ export default function BioLinksPage() {
       className="min-h-screen relative overflow-hidden bg-[#0e0e11] text-white"
       dir="rtl"
     >
-   {   load&&<PageLoader/>}
+      {load && <PageLoader />}
       {/* خلفيات ضوئية داكنة */}
       <div className="absolute top-20 right-[10%] w-96 h-96 bg-purple-500/10 rounded-full blur-[150px] animate-pulse-slow pointer-events-none" />
       <div
@@ -92,7 +92,7 @@ export default function BioLinksPage() {
               </AvatarFallback>
             </Avatar>
 
-         
+
           </div>
 
           <h1 className="flex text-2xl md:text-3xl font-extrabold mb-4 bg-gradient-to-l from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
