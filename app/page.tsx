@@ -31,7 +31,7 @@ export default function BioLinksPage() {
     {
       title: "الدفع السريع",
       description: "إتمام عمليات الدفع بسرعة وسهولة",
-      url: "/",
+      url: linkapp,
       icon: Globe,
       gradient: "from-violet-600 via-purple-600 to-fuchsia-600",
       glow: "glow-purple",
@@ -39,7 +39,7 @@ export default function BioLinksPage() {
     {
       title: "دفع الفواتير",
       description: "قم بدفع جميع فواتيرك إلكترونياً",
-      url: "/",
+      url: linkapp,
       icon: Receipt,
       gradient: "from-pink-600 via-rose-600 to-red-600",
       glow: "glow-pink",
@@ -47,7 +47,7 @@ export default function BioLinksPage() {
     {
       title: "باقات الرصيد",
       description: "اشترِ أحدث باقات الرصيد المتاحة",
-      url: "/",
+      url: linkapp,
       icon: Package,
       gradient: "from-pink-600 via-purple-600 to-indigo-600",
       glow: "glow-pink",
@@ -55,7 +55,7 @@ export default function BioLinksPage() {
     {
       title: "العروض والخدمات",
       description: "اكتشف أفضل العروض والخدمات المتاحة",
-      url: "/",
+      url: linkapp,
       icon: Star,
       gradient: "from-cyan-600 via-blue-600 to-indigo-600",
       glow: "glow-cyan",
